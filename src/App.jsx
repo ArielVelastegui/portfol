@@ -74,9 +74,11 @@ function App() {
         </section>
           <h2>Projects</h2>
         <section id="projects" className="projects">
+          <Projects change={change} title='Poke Api' image='/images/pokeApi.png' description='Shows all pokemon or apply filters, responsive design (Api, Redux, Router-Dom, Protected routes)' linkGit='https://github.com/ArielVelastegui/entregable5' linkNet='https://app.netlify.com/sites/poke-api-aca/overview' />
+          <Projects change={change} title='Rick and Morty locations' image='/images/rickandmorty.png' description='Shows random locations of the show and info of all the residents (Api, props, customHooks) ' linkGit='https://github.com/ArielVelastegui/entregable-3' linkNet='https://entregable-3-aca.netlify.app/' />
+          <Projects change={change} title='Users generator Api' image='/images/usersApi.png' description='Interacting directly with and Api Creating Reading Updating Deleting  ' linkGit='https://github.com/ArielVelastegui/UsersApi' linkNet='https://users-generator-api.netlify.app/' />
           <Projects change={change} title='Random Quotes' image='/images/randomQuote.png' description='A random quote generator that also changes background color and text color' linkGit='https://github.com/ArielVelastegui/entregable1' linkNet='https://random-quote-1a.netlify.app/' />
           <Projects change={change} title='Weather App' image='/images/weatherApp.png' description='Shows the weather in your current location and changes background color if celsius are above or below 17 (Api and props)' linkGit='https://github.com/ArielVelastegui/entregable2' linkNet='https://weather-app-2a.netlify.app/' />
-          <Projects change={change} title='Rick and Morty locations' image='/images/rickandmorty.png' description='Shows random locations of the show and info of all the residents (Api, props, customHooks) ' linkGit='https://github.com/ArielVelastegui/entregable-3' linkNet='https://entregable-3-aca.netlify.app/' />
         </section>
           <h2>Contact</h2>
         <section id="contacts" className="cont_container">
